@@ -16,6 +16,9 @@ functions-framework = "^3.4.0"
 yaspin = "^3.0.0"
 pydantic = "^2.3.0"
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
